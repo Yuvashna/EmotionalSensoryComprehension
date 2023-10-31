@@ -1,0 +1,82 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/accepted"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#F4F4F4">
+
+
+    <TextView
+        android:id="@+id/verification"
+        android:layout_width="295dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="74dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="Verification Status"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/acceptedtxt"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="ACCESS DENIED."
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/transacttxt"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="Transaction was unsuccessful."
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_below="@+id/transacttxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="#00C7AF"
+        android:text="Return to Home" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/verification"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="142dp"
+        app:srcCompat="@drawable/denied" />
+
+
+</RelativeLayout>

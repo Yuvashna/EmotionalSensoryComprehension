@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/UpperBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="#2F6A63"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/WelcomeLabel"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Welcome Back!"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/NotificationLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/notifications" />
+
+    <TextView
+        android:id="@+id/GreetingUser"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="45dp"
+        android:textSize="26dp"
+        android:text="Hi,"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nunito_sans"
+        />
+
+    <TextView
+        android:id="@+id/debitLabel"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="320dp"
+        android:gravity="top"
+        android:text="DEBIT CARD 4459863"
+        android:textAppearance="@font/nunito_sans"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/Creditamount"
+        android:layout_width="152dp"
+        android:layout_height="38dp"
+        android:layout_alignTop="@+id/SavingAmount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/CreditLabel"
+        android:elevation="20dp"
+        android:text="R 20 000.00"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/DebitAmount"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="326dp"
+        android:gravity="top"
+        android:text="R 800.00"
+        android:textAppearance="@font/nunito_sans"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/SavingAmount"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="443dp"
+        android:gravity="top"
+        android:text="R 800.00"
+        android:textAppearance="@font/nunito_sans"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/Savingsbckgrd"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:background="#8BBAB4"
+        />
+    <TextView
+        android:id="@+id/SavingsLabel"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="435dp"
+        android:gravity="top"
+        android:text="SUB SAVINGS 41570123"
+        android:textAppearance="@font/nunito_sans"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:elevation="20dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/savingsacc"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="442dp"
+        />
+
+    <TextView
+        android:id="@+id/SavingsAmount"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/SavingAmount"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toEndOf="@+id/SavingsLabel"
+        android:text="R 15 000.00"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+    <TextView
+        android:id="@+id/Creditbckgrd"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:background="#8BBAB4"
+        />
+    <TextView
+        android:id="@+id/CreditLabel"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="525dp"
+        android:gravity="top"
+        android:text="CREDIT CARD 59214592"
+        android:textAppearance="@font/nunito_sans"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:elevation="20dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/credit"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="532dp"
+        />
+
+    <Button
+        android:id="@+id/btnTransactHome"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="178dp"
+        android:layout_alignTop="@id/taskbar"
+        android:alpha="0.1"
+        android:color="@color/white"
+        android:textColor="@color/black"
+        android:elevation="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/taskbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/taskbar" />
+
+    <TextView
+        android:id="@+id/lblHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/taskbar"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="1dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/lblTransact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/taskbar"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toEndOf="@+id/lblAccounts"
+        android:elevation="20dp"
+        android:text="Transact"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/lblAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_alignBottom="@id/taskbar"
+        android:elevation="20dp"
+        android:textColor="@color/black"
+        android:text="Accounts"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/lblBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/taskbar"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/lblTransact"
+        android:elevation="14dp"
+        android:text="Buy"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/lblOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/taskbar"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/lblBuy"
+        android:elevation="14dp"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/Transactbckgrd"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:background="@color/white"
+
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/payimg"
+        android:layout_width="91dp"
+        android:layout_height="85dp"
+        android:layout_alignTop="@+id/Transactbckgrd"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="-1dp"
+        android:elevation="25dp"
+        android:src="@drawable/pay" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/sendimg"
+        android:layout_width="91dp"
+        android:layout_height="88dp"
+        android:layout_alignTop="@+id/Transactbckgrd"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/payimg"
+        android:elevation="25dp"
+        android:src="@drawable/send" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/transferimg"
+        android:layout_width="107dp"
+        android:layout_height="87dp"
+        android:layout_alignTop="@+id/Transactbckgrd"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/payimg"
+        android:elevation="5dp"
+        android:src="@drawable/transfer" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnTransfer"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Creditbckgrd"
+        android:layout_alignBottom="@+id/Transactbckgrd"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toEndOf="@+id/payimg"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:text=" " />
+
+</RelativeLayout>

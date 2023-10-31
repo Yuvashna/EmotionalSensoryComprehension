@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/transfer"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="top"
+        android:text="Transfer"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/transfer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="293dp"
+        android:text="From:"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/FromAccount"
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/transfer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="293dp"
+        android:text="To:"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/ToAccount"
+        android:layout_width="282dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/lblAmount"
+        android:layout_width="175dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/transfer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="233dp"
+        android:text="Amount:        R"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="193dp"
+        android:backgroundTint="#00C7AF"
+        android:text="Continue" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ToAccount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+
+</RelativeLayout>

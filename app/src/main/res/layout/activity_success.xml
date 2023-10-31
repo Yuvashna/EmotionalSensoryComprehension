@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/accepted"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#F4F4F4">
+
+
+    <TextView
+        android:id="@+id/verification"
+        android:layout_width="295dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="74dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="Verification Status"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/acceptedtxt"
+        android:layout_width="314dp"
+        android:layout_height="94dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="396dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="ACCEPTED"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnReturnScHome"
+        android:layout_width="172dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/acceptedtxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="122dp"
+        android:backgroundTint="#00C7AF"
+        android:text="Return to Home" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/verification"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="140dp"
+        app:srcCompat="@drawable/tick" />
+
+
+</RelativeLayout>

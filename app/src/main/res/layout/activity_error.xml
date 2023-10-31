@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/accepted"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#F4F4F4">
+
+
+    <TextView
+        android:id="@+id/verification"
+        android:layout_width="295dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="74dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="Something Went Wrong?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/acceptedtxt"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="center_horizontal|top"
+        android:text="TRY AGAIN LATER."
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnReturnHme"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_below="@+id/acceptedtxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#00C7AF"
+        android:text="Return to Home" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="127dp"
+        android:layout_below="@+id/verification"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="144dp"
+        app:srcCompat="@drawable/error" />
+
+
+</RelativeLayout>

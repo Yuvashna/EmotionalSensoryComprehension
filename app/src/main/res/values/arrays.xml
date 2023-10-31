@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Account_types">
+        <item>Sub-Savings Account</item>
+        <item>Debit Account</item>
+        <item>Credit Card</item>
+    </string-array>
+</resources>
